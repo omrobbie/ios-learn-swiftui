@@ -29,6 +29,25 @@ class NetworkManager {
     private let PARAM_COUNTRY = "country"
 }
 
+// MARK: - Download Image
+extension NetworkManager {
+
+    func downloadImage(urlString: String, completion: @escaping (Result<Data, Error>) -> ()) {
+        guard let url = URL(string: urlString) else {return}
+
+        URLSession.shared.dataTask(with: url) { (data, _, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                completion(.failure(error))
+                return
+            }
+
+            guard let data = data else {return}
+            completion(.success(data))
+        }.resume()
+    }
+}
+
 // MARK: - Services
 extension NetworkManager {
 
@@ -63,6 +82,6 @@ extension NetworkManager {
                 completion(.failure(error))
                 return
             }
-        }
+        }.resume()
     }
 }
