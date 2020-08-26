@@ -13,6 +13,7 @@
 		FC31C16324F6469F00192A83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC31C16224F6469F00192A83 /* Assets.xcassets */; };
 		FC31C16624F6469F00192A83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC31C16524F6469F00192A83 /* Preview Assets.xcassets */; };
 		FC31C16924F6469F00192A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31C16724F6469F00192A83 /* LaunchScreen.storyboard */; };
+		FC31C17524F64A6700192A83 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31C17424F64A6700192A83 /* News.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FC31C16524F6469F00192A83 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC31C16824F6469F00192A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC31C16A24F6469F00192A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC31C17424F64A6700192A83 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		FC31C17324F6493A00192A83 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FC31C17424F64A6700192A83 /* News.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			files = (
 				FC31C15D24F6469E00192A83 /* AppDelegate.swift in Sources */,
 				FC31C15F24F6469E00192A83 /* SceneDelegate.swift in Sources */,
+				FC31C17524F64A6700192A83 /* News.swift in Sources */,
 				FC31C16124F6469E00192A83 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
