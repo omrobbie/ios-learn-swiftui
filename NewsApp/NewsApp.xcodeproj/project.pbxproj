@@ -56,12 +56,10 @@
 		FC31C15B24F6469E00192A83 /* NewsApp */ = {
 			isa = PBXGroup;
 			children = (
-				FC31C15C24F6469E00192A83 /* AppDelegate.swift */,
-				FC31C15E24F6469E00192A83 /* SceneDelegate.swift */,
-				FC31C16024F6469E00192A83 /* ContentView.swift */,
-				FC31C16224F6469F00192A83 /* Assets.xcassets */,
-				FC31C16724F6469F00192A83 /* LaunchScreen.storyboard */,
-				FC31C16A24F6469F00192A83 /* Info.plist */,
+				FC31C17324F6493A00192A83 /* Model */,
+				FC31C17224F6493500192A83 /* View */,
+				FC31C17124F6492D00192A83 /* ViewModel */,
+				FC31C17024F648C700192A83 /* Base */,
 				FC31C16424F6469F00192A83 /* Preview Content */,
 			);
 			path = NewsApp;
@@ -73,6 +71,40 @@
 				FC31C16524F6469F00192A83 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FC31C17024F648C700192A83 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FC31C15C24F6469E00192A83 /* AppDelegate.swift */,
+				FC31C15E24F6469E00192A83 /* SceneDelegate.swift */,
+				FC31C16224F6469F00192A83 /* Assets.xcassets */,
+				FC31C16724F6469F00192A83 /* LaunchScreen.storyboard */,
+				FC31C16A24F6469F00192A83 /* Info.plist */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FC31C17124F6492D00192A83 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC31C17224F6493500192A83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC31C16024F6469E00192A83 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC31C17324F6493A00192A83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +319,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NewsApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = NewsApp/Info.plist;
+				INFOPLIST_FILE = NewsApp/Base/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NewsApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = NewsApp/Info.plist;
+				INFOPLIST_FILE = NewsApp/Base/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
