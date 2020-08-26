@@ -37,7 +37,6 @@ extension NetworkManager {
 
         URLSession.shared.dataTask(with: url) { (data, _, error) in
             if let error = error {
-                print(error.localizedDescription)
                 completion(.failure(error))
                 return
             }
@@ -64,7 +63,6 @@ extension NetworkManager {
 
         URLSession.shared.dataTask(with: url) { (data, _, error) in
             if let error = error {
-                print(error.localizedDescription)
                 completion(.failure(error))
                 return
             }
@@ -78,7 +76,6 @@ extension NetworkManager {
                     completion(.success(decodeData.articles))
                 }
             } catch {
-                print("Error", error.localizedDescription)
                 completion(.failure(error))
                 return
             }
