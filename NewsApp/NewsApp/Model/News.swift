@@ -6,8 +6,6 @@
 //  Copyright © 2020 omrobbie. All rights reserved.
 //
 
-import Foundation
-
 struct News: Decodable {
 
     let author: String?
