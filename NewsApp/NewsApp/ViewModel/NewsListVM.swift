@@ -12,4 +12,19 @@ class NewsListVM: ObservableObject {
 
     @Published var news = [NewsViewModel]()
     @Published var imageData = [String: Data]()
+
+    func loadData() {
+        NetworkManager.shared.getTopHeadlines { (result) in
+            switch result {
+            case .failure(let error): print(error.localizedDescription)
+            case .success(let newsData):
+                let newsVM = newsData.map(NewsViewModel.init)
+
+                DispatchQueue.main.async {
+                    self.news = newsVM
+                }
+
+            }
+        }
+    }
 }

@@ -71,10 +71,7 @@ extension NetworkManager {
 
             do {
                 let decodeData = try JSONDecoder().decode(NewsEnvelope.self, from: data)
-
-                DispatchQueue.main.async {
-                    completion(.success(decodeData.articles))
-                }
+                completion(.success(decodeData.articles))
             } catch {
                 completion(.failure(error))
                 return
