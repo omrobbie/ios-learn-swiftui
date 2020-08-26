@@ -14,6 +14,7 @@
 		FC31C16624F6469F00192A83 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC31C16524F6469F00192A83 /* Preview Assets.xcassets */; };
 		FC31C16924F6469F00192A83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC31C16724F6469F00192A83 /* LaunchScreen.storyboard */; };
 		FC31C17524F64A6700192A83 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31C17424F64A6700192A83 /* News.swift */; };
+		FC31C17824F64B3300192A83 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31C17724F64B3300192A83 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		FC31C16824F6469F00192A83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC31C16A24F6469F00192A83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC31C17424F64A6700192A83 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		FC31C17724F64B3300192A83 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				FC31C17324F6493A00192A83 /* Model */,
 				FC31C17224F6493500192A83 /* View */,
 				FC31C17124F6492D00192A83 /* ViewModel */,
+				FC31C17624F64B2400192A83 /* Network */,
 				FC31C17024F648C700192A83 /* Base */,
 				FC31C16424F6469F00192A83 /* Preview Content */,
 			);
@@ -108,6 +111,14 @@
 				FC31C17424F64A6700192A83 /* News.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FC31C17624F64B2400192A83 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FC31C17724F64B3300192A83 /* NetworkManager.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 			files = (
 				FC31C15D24F6469E00192A83 /* AppDelegate.swift in Sources */,
 				FC31C15F24F6469E00192A83 /* SceneDelegate.swift in Sources */,
+				FC31C17824F64B3300192A83 /* NetworkManager.swift in Sources */,
 				FC31C17524F64A6700192A83 /* News.swift in Sources */,
 				FC31C16124F6469E00192A83 /* ContentView.swift in Sources */,
 			);
