@@ -16,6 +16,7 @@
 		FC31C17524F64A6700192A83 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31C17424F64A6700192A83 /* News.swift */; };
 		FC31C17824F64B3300192A83 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31C17724F64B3300192A83 /* NetworkManager.swift */; };
 		FC31C17A24F64B7500192A83 /* Keys.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC31C17924F64B7500192A83 /* Keys.plist */; };
+		FC31C1BC24F7238F00192A83 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31C1BB24F7238F00192A83 /* NewsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		FC31C17424F64A6700192A83 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
 		FC31C17724F64B3300192A83 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FC31C17924F64B7500192A83 /* Keys.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Keys.plist; sourceTree = "<group>"; };
+		FC31C1BB24F7238F00192A83 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		FC31C17124F6492D00192A83 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FC31C1BB24F7238F00192A83 /* NewsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC31C15D24F6469E00192A83 /* AppDelegate.swift in Sources */,
+				FC31C1BC24F7238F00192A83 /* NewsViewModel.swift in Sources */,
 				FC31C15F24F6469E00192A83 /* SceneDelegate.swift in Sources */,
 				FC31C17824F64B3300192A83 /* NetworkManager.swift in Sources */,
 				FC31C17524F64A6700192A83 /* News.swift in Sources */,
