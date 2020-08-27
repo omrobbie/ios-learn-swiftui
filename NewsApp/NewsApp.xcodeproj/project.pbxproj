@@ -20,6 +20,7 @@
 		FC31C1BE24F7249C00192A83 /* NewsListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31C1BD24F7249C00192A83 /* NewsListVM.swift */; };
 		FC31C1C024F72D3D00192A83 /* NewsListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31C1BF24F72D3D00192A83 /* NewsListHeader.swift */; };
 		FC31C1C224F72E1D00192A83 /* NewsHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31C1C124F72E1D00192A83 /* NewsHome.swift */; };
+		FC31C1C424F72F9B00192A83 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC31C1C324F72F9B00192A83 /* NewsCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		FC31C1BD24F7249C00192A83 /* NewsListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListVM.swift; sourceTree = "<group>"; };
 		FC31C1BF24F72D3D00192A83 /* NewsListHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListHeader.swift; sourceTree = "<group>"; };
 		FC31C1C124F72E1D00192A83 /* NewsHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsHome.swift; sourceTree = "<group>"; };
+		FC31C1C324F72F9B00192A83 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				FC31C16024F6469E00192A83 /* ContentView.swift */,
 				FC31C1BF24F72D3D00192A83 /* NewsListHeader.swift */,
 				FC31C1C124F72E1D00192A83 /* NewsHome.swift */,
+				FC31C1C324F72F9B00192A83 /* NewsCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				FC31C1C024F72D3D00192A83 /* NewsListHeader.swift in Sources */,
 				FC31C1BE24F7249C00192A83 /* NewsListVM.swift in Sources */,
 				FC31C1BC24F7238F00192A83 /* NewsViewModel.swift in Sources */,
+				FC31C1C424F72F9B00192A83 /* NewsCell.swift in Sources */,
 				FC31C1C224F72E1D00192A83 /* NewsHome.swift in Sources */,
 				FC31C15F24F6469E00192A83 /* SceneDelegate.swift in Sources */,
 				FC31C17824F64B3300192A83 /* NetworkManager.swift in Sources */,
