@@ -18,7 +18,7 @@ struct NewsHome: View {
     var body: some View {
         VStack {
             NewsListHeader()
-            
+            NewsListView(newsCollection: newsListVM.news, imageData: newsListVM.imageData)
         }
     }
 }
