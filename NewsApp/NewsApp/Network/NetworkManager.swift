@@ -9,7 +9,6 @@
 import Foundation
 
 class NetworkManager {
-
     static let shared = NetworkManager()
 
     private let apiKey: String = {
@@ -31,7 +30,6 @@ class NetworkManager {
 
 // MARK: - Download Image
 extension NetworkManager {
-
     func downloadImage(urlString: String, completion: @escaping (Result<Data, Error>) -> ()) {
         guard let url = URL(string: urlString) else {return}
 
@@ -49,7 +47,6 @@ extension NetworkManager {
 
 // MARK: - Services
 extension NetworkManager {
-
     func getTopHeadlines(completion: @escaping (Result<[News], Error>) -> ()) {
         let urlString = NetworkManager.shared.BASE_URL + NetworkManager.shared.TOP_HEADLINES
         guard var urlComponents = URLComponents(string: urlString) else {return}

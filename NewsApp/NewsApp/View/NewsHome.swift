@@ -9,7 +9,6 @@
 import SwiftUI
 
 struct NewsHome: View {
-
     @ObservedObject private var newsListVM = NewsListVM()
 
     init() {

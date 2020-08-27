@@ -7,7 +7,6 @@
 //
 
 struct News: Decodable {
-
     let author: String?
     let title: String?
     let description: String?
@@ -16,7 +15,6 @@ struct News: Decodable {
 }
 
 struct NewsEnvelope: Decodable {
-
     let status: String
     let totalResult: Int
     let articles: [News]

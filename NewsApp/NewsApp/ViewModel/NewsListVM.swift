@@ -9,7 +9,6 @@
 import Foundation
 
 class NewsListVM: ObservableObject {
-
     @Published var news = [NewsViewModel]()
     @Published var imageData = [String: Data]()
 
